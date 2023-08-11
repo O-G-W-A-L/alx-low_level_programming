@@ -8,9 +8,9 @@
 int main(void)
 {
   int a, b;
-  for (a = 48; a <=56; n++)
+  for (a = 48; a <=56; a++)
     {
-      for (b = 49; b <= 57; m++)
+      for (b = 49; b <= 57; b++)
 	{
 	  if (b > a)
 	    {
