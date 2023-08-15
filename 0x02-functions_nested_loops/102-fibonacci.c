@@ -18,11 +18,11 @@ printf("%ld, ", b);
 }
 else
 {
-printf("ld\n", b);
+printf("%ld\n", b);
 }
 d = b + c;
 b = c;
-k = d;
+c = d;
 }
-return (0)
+return (0);
 }
