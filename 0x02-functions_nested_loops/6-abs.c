@@ -6,7 +6,7 @@
  *Return: the abslute value of int
  */
 
-int _abs(nt n)
+int _abs(int n)
 {
 if (n >= 0)
 {
