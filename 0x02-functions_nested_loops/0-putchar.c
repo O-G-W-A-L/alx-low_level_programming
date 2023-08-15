@@ -1,6 +1,5 @@
 #include <stdio.h>
-#include <main.h>
-
+#include "main.h"
 /**
  *mmain - prints _putchar, followed bby a new line
  *Return: Always 0 (Success)
