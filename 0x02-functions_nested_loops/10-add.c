@@ -1,6 +1,6 @@
 #include "main.h"
 
-//***
+/**
 *add - adds two integers and returns the resul
 *@a: int to be added to b
 *@b: int to be added to a
