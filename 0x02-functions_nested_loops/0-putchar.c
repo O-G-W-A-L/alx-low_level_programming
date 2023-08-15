@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 /**
  *mmain - prints _putchar, followed bby a new line
