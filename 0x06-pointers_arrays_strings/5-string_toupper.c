@@ -2,10 +2,8 @@
 #include <stdio.h>
 
 /**
- *string_touper - changes all lowercase letters of a string
- *to uppercase
+ *string_touper - changes lowercase to uppercase
  *@s: string to modify
- *
  *Return: the resulting string
  */
 
