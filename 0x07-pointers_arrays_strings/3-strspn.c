@@ -17,7 +17,7 @@ while (*s)
 {
 for (index = 0; accept[index]; index++)
 {
-if (*s == acceept[index])
+if (*s == accept[index])
 {
 bytes++;
 break;
