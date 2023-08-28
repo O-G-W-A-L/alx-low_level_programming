@@ -3,7 +3,7 @@
 /**
  * *_strspn - gets the length of the prefix substring
  *@s: string to evaluate
- *@accet: string containing the list of characters to match in s
+ *@accept: string containing the list of characters to match in s
  *Return: the number of bytes in the initial segment
  **of s which consist only of bytes from accept
  */
