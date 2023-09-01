@@ -3,7 +3,7 @@
 #include <string.h>
 
 /**
- *main - prints the su of args positive numbers
+ *main - prints the sum of args positive numbers
  *@argc: argument count
  *@argv: argument vector
  *
