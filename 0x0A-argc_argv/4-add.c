@@ -1,30 +1,42 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 /**
- *mmain - prints the addition of positive numbers,
- * followed by a new line
- *@argc: the number of arguments to the program
- *@argv: an array of pointers t the arguments
- *Return: if one of the numbers contains symbols that are non-digits - 1
- * ootherwise 0
+ *main - prints the su of args positive numbers
+ *@argc: argument count
+ *@argv: argument vector
+ *
+ *Return: Always zero
  */
 
 int main(int argc, char *argv[])
 {
-int num, digit, sum = 0;
-for (num = 1; num < argv; num++)
+int i;
+unsigned int k, sum = 0;
+char *e;
+
+if (argc > 1)
 {
-for (digit = 0; argv[num][digit]; digit++)
+for (i = 1; i < argc; i++)
 {
-if (argv[num][digit] < '0' || argv[num][digit] > '9')
+e = argv[i];
+for (k = 0; k < strlen(e); k++)
+{
+if(e[k] < 48 || e[k] > 57)
 {
 printf("Error\n");
 return (1);
 }
 }
-sum += atoi(argv[num]);
+sum += atoi(e);
+e++;
 }
 printf("%d\n", sum);
+}
+else
+{
+printf("0\n");
+}
 return (0);
 }
