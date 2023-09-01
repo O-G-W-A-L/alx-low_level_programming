@@ -24,7 +24,7 @@ j = 1;
 for (i = 1; i < 3; i++)
 j *= atoi(argv[i]);
 
-print("%d\n", j);
+printf("%d\n", j);
 }
 return (0);
 }
