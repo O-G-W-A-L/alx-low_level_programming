@@ -30,7 +30,7 @@ return (0);
 
 for (j = 0; j < 5 && num >= 0; j++)
 {
-while (nu >= coins[j])
+while (num >= coins[j])
 {
 result++;
 num -= coins[j];
