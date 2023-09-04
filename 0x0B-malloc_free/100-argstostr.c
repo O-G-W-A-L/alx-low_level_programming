@@ -22,7 +22,7 @@ for (arg = 0; arg < ac; arg++)
 for (byte = 0; av[arg][byte]; byte++)
 size++;
 }
-str = alloc(sizeof(char) * size + 1);
+str = malloc(sizeof(char) * size + 1);
 
 if (str == NULL)
 return (NULL);
