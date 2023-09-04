@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- *argstostr - Concatenatees all arguments of the program into a string;
+ * *argstostr - Concatenatees all arguments of the program into a string;
  *  arguments are seperated by a new line in the string
  *@ac: the number of arguments passed to the program
  *@av: an array of pointers to the arguments
@@ -19,8 +19,8 @@ if (ac == 0 || av == NULL)
 return (NULL);
 for (arg = 0; arg < ac; arg++)
 {
-for (bytee = 0; av[arg][byte]; byte++)
-sizee++;
+for (byte = 0; av[arg][byte]; byte++)
+size++;
 }
 str = alloc(sizeof(char) * size + 1);
 
