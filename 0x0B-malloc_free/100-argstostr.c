@@ -6,7 +6,6 @@
  *  arguments are seperated by a new line in the string
  *@ac: the number of arguments passed to the program
  *@av: an array of pointers to the arguments
- *
  *Return: if ac == 0, av == NULL, or the function fails - NULL
  *  Otherwise - a pointer too the neew string
  */
