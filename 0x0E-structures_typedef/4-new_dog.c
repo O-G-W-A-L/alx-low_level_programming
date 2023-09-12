@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include "dog.h"
+#include <string.h>
 
 int _strlen(char *s);
 char *_strcpy(char *dest, char *src);
@@ -31,14 +32,14 @@ cutie_dog->name = malloc(sizeof(char)) * name_l);
 if (cutie_dog->name == NULL)
 {
 free(cutie_dog);
-return (NULL):
+return (NULL);
 }
 cutie_dog->owner = malloc(sizeof(char) * own_l);
 
 if (cutie_dog->owner == NULL)
 {
-free(cutie_dog->nae);
-free(cutie_dog;
+free(cutie_dog->name);
+free(cutie_dog);
 return (NULL);
 }
 
