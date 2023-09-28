@@ -5,7 +5,7 @@
  *@n: parameter
  */
 
-void print_binary(unsigned log int n)
+void print_binary(unsigned long int n)
 {
 int i, count = 0;
 unsigned long int current;
