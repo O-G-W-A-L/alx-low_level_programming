@@ -7,7 +7,7 @@
  *Return: val
  */
 
-int get_bit(unsigned long int n, unsignedd int index)
+int get_bit(unsigned long int n, unsigned int index)
 {
 int bit;
 
