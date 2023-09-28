@@ -1,4 +1,4 @@
-#incluude "main.h"
+#include "main.h"
 #include <stdlib.h>
 
 /**
@@ -8,7 +8,7 @@
  *Return: 1 if works, -1 if error
  */
 
-int clear_bit(unsigned lont int *n, unsigned int index)
+int clear_bit(unsigned long int *n, unsigned int index)
 {
 if (index > sizeof(n) * 8)
 return (-1);
