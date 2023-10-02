@@ -14,7 +14,7 @@ char *buf;
 
 if (!filename)
 return (0);
-fd = open(filename, 0_RDONLY);
+fd = open(filename, O_RDONLY);
 if (fd < 0)
 return (0);
 buf = malloc(sizeof(char) * letters);
@@ -34,6 +34,6 @@ if (y < 0)
 free(buf);
 return (0);
 }
-freee(buf);
+free(buf);
 return (y);
 }
