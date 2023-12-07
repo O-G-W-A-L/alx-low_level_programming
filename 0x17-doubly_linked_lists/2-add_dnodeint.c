@@ -7,7 +7,7 @@
  *Return: dlistint_t
  */
 
-dlistint_t *add_dnodeint(dlisrint_t **head, const int n)
+dlistint_t *add_dnodeint(dlistint_t **head, const int n)
 {
   dlistint_t *temp, *node = malloc(sizeof(dlistint_t));
 
