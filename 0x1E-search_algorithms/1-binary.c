@@ -1,6 +1,6 @@
 #include "search_algos.h"
 /**
- * linear_search - linear search algorithm
+ * binary_search - searches for a value in a sorted array of integers
  * @array: the array
  * @size: the size of the array
  * @value: the value searching for
